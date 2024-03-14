@@ -28,7 +28,7 @@ public class Task3 {
         System.out.println();
         student.remove("Tooba");
         displayStudents(student);
-        student.remove(student.size()-1);
+        student.removeLast();
         System.out.println();
         displayStudents(student);
     }
