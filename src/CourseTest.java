@@ -3,9 +3,12 @@ import java.util.Scanner;
 public class CourseTest {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+
         System.out.println("Enter Number of Courses");
         int n = sc.nextInt();
+
         Course[] courses = new Course[n];
+
         for (int i = 0; i < courses.length; i++) {
             System.out.println("Enter Course " + (i + 1) + " Details");
             System.out.println("Enter Course Title");
